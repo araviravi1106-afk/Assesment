@@ -12,26 +12,24 @@ def main():
         print("-" * 30, "\n")
 
         operator = int(input("Enter your choice: "))
+        a = float(input("Enter first number: "))
+        b = float(input("Enter second number: "))
 
         match operator:
             case 1:
-                a = float(input("Enter first number: "))
-                b = float(input("Enter second number: "))
+                
                 print("Result:", ca.add(a, b))
 
             case 2:
-                a = float(input("Enter first number: "))
-                b = float(input("Enter second number: "))
+                
                 print("Result:", ca.subtract(a, b))
 
             case 3:
-                a = float(input("Enter first number: "))
-                b = float(input("Enter second number: "))
+                
                 print("Result:", ca.multiply(a, b))
 
             case 4:
-                a = float(input("Enter first number: "))
-                b = float(input("Enter second number: "))
+                
 
                 result = ca.divide(a, b)
 
@@ -41,8 +39,7 @@ def main():
                     print("Result:", result)
 
             case 5:
-                a = float(input("Enter first number: "))
-                b = float(input("Enter second number: "))
+                
                 print("Result:", ca.exponentiate(a, b))
 
             case 6:
